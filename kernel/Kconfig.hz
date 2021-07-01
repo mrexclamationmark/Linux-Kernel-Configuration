@@ -1,0 +1,34 @@
+# SPDX-License-Identifier: GPL-2.0-only
+#
+# Timer Interrupt Frequency Configuration
+#
+
+
+choice
+	prompt "mrtelekinesis timer formula"
+	default HZ_200
+	help
+	 Configuration of the timer frequency.
+	 References:include/linux/jiffies.h
+	 References:include/asm-generic/param.h
+
+	 Hz/Khz/Mhz/Ghz/Thz formula:
+	 1000 / X
+
+	 Accurate Hertz Numbers (No Decimal Points):
+	 1, 2, 4, 5, 8, 10, 20, 25, 40, 50, 100, 125, 200, 250, 500, 1000
+
+	config HZ_200
+		bool "200 HZ"
+	help
+	 200 ticks per second.
+	 5ms each tick.
+
+endchoice
+
+config HZ
+	int
+	default 200 if HZ_200
+
+config SCHED_HRTICK
+	def_bool HIGH_RES_TIMERS
