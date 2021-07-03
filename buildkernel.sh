@@ -11,6 +11,8 @@
 
 # Change USER_HZ in include/asm-generic/param.h to the HZ in Kconfig.hz
 
+#printenv #< use this to test if the flags are being exported to the environment
+
 echo "Starting kernel build script"
 
 KBUILD_CPPFLAGS="-U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -U_GLIBCXX_ASSERTIONS -D_GLIBCXX_ASSERTIONS"
@@ -28,5 +30,3 @@ KAFLAGS="${KBUILD_AFLAGS}"
 export KCPPFLAGS KCFLAGS KCXXFLAGS KLDFLAGS KAFLAGS
 
 make -s
-
-#printenv #< use this to test if the flags are being exported to the environment
