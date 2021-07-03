@@ -9,4 +9,5 @@
 500ms << High Latency, High Throughput
 
 **buildkernel.sh**
+
 This is a build script written to optimize the linux kernel with GCC optimization flags for performance and more security.
