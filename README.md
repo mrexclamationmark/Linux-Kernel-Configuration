@@ -10,6 +10,6 @@
 
 **buildkernel.sh**
 
-This is a build script written to optimize the linux kernel with GCC optimization flags for performance and more security.
+This is a build script written to optimize the linux kernel with GCC optimization flags for performance and more security on x86 systems.
 
 this script needs to be copied to the main kernel directory and executed with sh buildkernel.sh
