@@ -1,4 +1,4 @@
-5ms timer frequency for the linux kernel to achieve stability within the digits of the hertz formula.
+5ms kernel interrupt timer frequency for the linux kernel to achieve stability within the digits of the hertz formula.
 
 5ms << Low Latency, Low Throughput, Use if you are using the desktop
 
