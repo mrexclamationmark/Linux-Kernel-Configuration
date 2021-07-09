@@ -1,10 +1,10 @@
 **Kconfig.hz**
 
-5ms kernel interrupt timer frequency for the linux kernel to achieve stability within the digits of the hertz formula.
+5ms kernel interrupt timer frequency for the linux kernel to achieve stability by not being too fast or too slow, but in the middle.
 
-5ms << Low Latency, Low Throughput, Use if you are using the desktop
+5ms << Low Latency, Low Throughput, Use this millisecond value if you are using the desktop
 
-50ms << Mid Latency, Mid Throughput, Use if you are using the console only
+50ms << Mid Latency, Mid Throughput, Use this millisecond value if you are using the console only
 
 500ms << High Latency, High Throughput
 
