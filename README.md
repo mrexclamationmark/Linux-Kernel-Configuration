@@ -1,6 +1,6 @@
 **Kconfig.hz**
 
-5ms (200Hz) kernel interrupt timer frequency for the linux kernel to achieve stability by not being too fast or too slow, but in the middle.
+5ms (200Hz) kernel interrupt timer frequency for the linux kernel to achieve stability by not being too fast or too slow, but in the middle on the low latency spectrum.
 
 **buildkernel.sh**
 
