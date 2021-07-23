@@ -18,3 +18,5 @@ this script needs to be copied to the main kernel directory and executed with sh
 man-pages (manual pages) (Linux command)
 
 info (software utility) (Linux command)
+
+Linux kernel sources (linux-x.x.x/)
