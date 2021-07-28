@@ -10,8 +10,6 @@
 #KBUILD_CXXFLAGS += $(KCXXFLAGS)
 #KBUILD_LDFLAGS += $(KLDFLAGS)
 
-# Change USER_HZ in include/asm-generic/param.h to the HZ in Kconfig.hz
-
 #printenv #< use this to test if the flags are being exported to the environment
 
 echo "Starting kernel build script"
