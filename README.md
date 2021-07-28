@@ -15,7 +15,7 @@ this script needs to be copied to the main kernel directory and executed with sh
 
 **Sources:**
 
-man (manual pages) (Linux command)
+man (software utility, manual pages) (Linux command)
 
 info (software utility) (Linux command)
 
