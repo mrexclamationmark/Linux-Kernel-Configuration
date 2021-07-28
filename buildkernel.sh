@@ -4,6 +4,7 @@
 # Change KBUILD_AFLAGS -mtune= to the right value for your cpu, read "man as" for more details.
 # Change flto= to the number of cores you have, example flto=2 for 2 cores.
 # Change make -j 2 -l 2.00 to the number of cores you have, example make -j 2 -l 2.00 for 2 cores.
+# Change KBUILD_AFLAGS -mamd64 to -mintel64 if you use an intel CPU.
 
 #Add These To the "# Add user supplied CPPFLAGS, AFLAGS and CFLAGS as the last assignments line" in the top level Makefile (linux-5.7/Makefile)
 #KBUILD_CXXFLAGS += $(KCXXFLAGS)
