@@ -4,7 +4,7 @@
 
 **.config**
 
-This is an initial starting linux kernel .config with useful options enabled for low latency (mrtelekinesis flavour) 
+This is an initial starting linux kernel .config (mrtelekinesis flavour) this is WIP
 
 **buildkernel.sh**
 
