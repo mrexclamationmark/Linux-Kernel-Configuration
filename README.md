@@ -11,7 +11,7 @@ this script needs to be copied to the main kernel directory and executed with sh
 **Makefile.patch**
 These lines are needed for buildkernel.sh to work (KBUILD_CXXFLAGS, KBUILD_LDFLAGS)
 
-Simply copy this patch to the main kernel directory and run **patch -p1 < Makefile.patch**
+Simply copy this patch to the main kernel directory and run "patch -p1 < Makefile.patch"
 
 **Sources:**
 
