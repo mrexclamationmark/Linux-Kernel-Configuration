@@ -6,12 +6,6 @@
 # Change make -j 2 -l 2.00 to the number of cores you have, example make -j 2 -l 2.00 for 2 cores.
 # Change KBUILD_AFLAGS -mamd64 to -mintel64 if you use an intel CPU.
 
-#Add These To the "# Add user supplied CPPFLAGS, AFLAGS and CFLAGS as the last assignments line" in the top level Makefile (linux-5.7/Makefile)
-#KBUILD_CXXFLAGS += $(KCXXFLAGS)
-#KBUILD_LDFLAGS += $(KLDFLAGS)
-
-#printenv #< use this to test if the flags are being exported to the environment
-
 echo "Starting kernel build script"
 
 KBUILD_CPPFLAGS="-U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -U_GLIBCXX_ASSERTIONS -D_GLIBCXX_ASSERTIONS"
