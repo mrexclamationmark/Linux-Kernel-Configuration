@@ -9,6 +9,7 @@ This is a build script written to optimize the linux kernel with GCC optimizatio
 this script needs to be copied to the main kernel directory and executed with sh buildkernel.sh
 
 **Makefile.patch**
+
 These lines are needed for buildkernel.sh to work (KBUILD_CXXFLAGS, KBUILD_LDFLAGS)
 
 Simply copy this patch to the main kernel directory and run "patch -p1 < Makefile.patch"
