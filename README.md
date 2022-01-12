@@ -4,6 +4,8 @@ GNU-Linux-Configuration: https://github.com/mrtelekinesis/GNU-Linux-Configuratio
  
 GNU-Linux-Scripts: https://github.com/mrtelekinesis/GNU-Linux-Scripts
 
+**Please read the files carefully before applying it. You are responsible for actions done to your system. If you need some help understanding on what some of the files do, there is many documentations out there to read as you can find them using a search engine**
+
 **Kconfig.hz**
 
 5ms (200Hz) kernel interrupt timer frequency for the linux kernel to achieve stability on the low latency spectrum, by not being too fast or too slow, but in the middle (a balance), minimizing jitter.
