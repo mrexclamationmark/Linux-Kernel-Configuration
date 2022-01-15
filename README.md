@@ -4,7 +4,7 @@ GNU-Linux-Configuration: https://github.com/mrtelekinesis/GNU-Linux-Configuratio
  
 GNU-Linux-Scripts: https://github.com/mrtelekinesis/GNU-Linux-Scripts
 
-**Please read the files before using them and set them up for your needs, there may be some settings that will not work with your system configuration or some that you may not want.**
+**Please read the files before using them and understand what they do, there may be some settings that will not work with your system configuration or some that you may not want.**
 
 **Kconfig.hz**
 
