@@ -9,14 +9,16 @@ choice
 	default HZ_200
 	help
 	 Configuration of the timer frequency.
-	 References:include/linux/jiffies.h
-	 References:include/asm-generic/param.h
+	 Sources:include/linux/jiffies.h
+	 Sources:include/asm-generic/param.h
 
-	 Hz/Khz/Mhz/Ghz/Thz formula:
+	 Hz formula:
 	 1000 / X
 
-	 Accurate Hertz Numbers (No Decimal Points):
-	 1, 2, 4, 5, 8, 10, 20, 25, 40, 50, 100, 125, 200, 250, 500, 1000
+	 Even Hertz Numbers:
+	 1, 2, 2.5, 4, 5, 8, 10, 20, 25, 40, 50, 80, 100, 125, 200, 250, 400, 500, 800, 1000
+
+	 Note: Floating point numbers cannot be used (2.5, etc).
 
 	config HZ_200
 		bool "200 HZ"
