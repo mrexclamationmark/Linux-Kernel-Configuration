@@ -16,10 +16,7 @@ choice
 	 1000 / X
 
 	 Even Hertz Numbers:
-	 1, 2, 2.5, 4, 5, 8, 10, 12.5, 20, 25, 40, 50, 80, 100, 125, 200, 250, 400, 500,
-	 800, 1000
-
-	 Note: Floating point numbers cannot be used (2.5, etc).
+	 1, 2, 4, 5, 8, 10, 20, 25, 40, 50, 80, 100, 125, 200, 250, 400, 500, 800, 1000
 
 	config HZ_200
 		bool "200 HZ"
