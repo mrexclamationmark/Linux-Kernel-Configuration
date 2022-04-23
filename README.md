@@ -2,9 +2,9 @@
 
 **Navigation:**
  
-GNU-Linux-Configuration: https://github.com/mrtelekinesis/GNU-Linux-Configuration
+GNU-Linux-Configuration: https://github.com/exclamationmarked/GNU-Linux-Configuration
  
-GNU-Linux-Scripts: https://github.com/mrtelekinesis/GNU-Linux-Scripts
+GNU-Linux-Scripts: https://github.com/exclamationmarked/GNU-Linux-Scripts
 
 **Kconfig.hz**
 
