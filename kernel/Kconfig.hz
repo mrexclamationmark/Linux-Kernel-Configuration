@@ -6,7 +6,7 @@
 
 choice
 	prompt "Timer frequencies"
-	default HZ_320
+	default HZ_200
 	help
 	 Configuration of the timer frequency.
 	 Sources:include/linux/jiffies.h
@@ -16,29 +16,20 @@ choice
 	 1000 / X
 
 	 Complete Hertz Numbers:
-	 1, 2, 3.2, 4, 5, 8, 10, 20, 25, 32, 40, 50, 80, 100, 125, 200, 250,
-	 320, 400, 500, 800, 1000
+	 1, 2, 4, 5, 8, 10, 20, 25, 40, 50, 80, 100, 125, 200, 250,
+	 400, 500, 800, 1000
 
-	 Balance between tick rate and number of ticks (High-Latency):
-	 3.2Hz
-
-	 Balance between tick rate and number of ticks (Mid-Latency):
-	 32Hz
-
-	 Balance between tick rate and number of ticks (Low-Latency):
-	 320Hz
-
-	config HZ_320
-		bool "320 HZ"
+	config HZ_200
+		bool "200 HZ"
 	help
-	 320 ticks per second.
-	 3.125ms each tick.
+	 200 ticks per second.
+	 5ms each tick.
 
 endchoice
 
 config HZ
 	int
-	default 320 if HZ_320
+	default 200 if HZ_200
 
 config SCHED_HRTICK
 	def_bool HIGH_RES_TIMERS
