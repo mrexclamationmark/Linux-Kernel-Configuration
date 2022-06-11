@@ -8,7 +8,7 @@ GNU-Linux-Scripts: https://github.com/mrexclamationmark/GNU-Linux-Scripts
 
 **Kconfig.hz**
 
-3.125ms (320Hz) kernel interrupt timer frequency for the linux kernel to obtain stability on the low latency spectrum.
+5ms (200Hz) kernel interrupt timer frequency for the linux kernel to obtain stability on the low latency spectrum.
 
 **buildkernel.sh**
 
