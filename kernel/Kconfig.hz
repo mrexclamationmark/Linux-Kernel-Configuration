@@ -19,7 +19,7 @@ choice
 	 1, 2, 4, 5, 8, 10, 20, 25, 40, 50, 80, 100, 125, 200, 250,
 	 400, 500, 800, 1000
 
-	 Balance Hertz Numbers:
+	 Balanced Hertz Numbers:
 	 3Hz (High-Latency)
 
 	 33Hz (Mid-Latency)
