@@ -6,7 +6,7 @@
 
 choice
 	prompt "Timer frequencies"
-	default HZ_333
+	default HZ_316
 	help
 	 Configuration of the timer frequency.
 	 Sources:include/linux/jiffies.h
@@ -19,24 +19,20 @@ choice
 	 1, 2, 4, 5, 8, 10, 20, 25, 40, 50, 80, 100, 125, 200, 250,
 	 400, 500, 800, 1000
 
-	 Balanced Hertz Numbers:
-	 3Hz (High-Latency)
+	 Balance between tick rate and number of ticks:
+	 316Hz
 
-	 33Hz (Mid-Latency)
-
-	 333Hz (Low-Latency)
-
-	config HZ_333
-		bool "333 HZ"
+	config HZ_316
+		bool "316 HZ"
 	help
-	 333 ticks per second.
-	 3.0ms each tick.
+	 316 ticks per second.
+	 3.16ms each tick.
 
 endchoice
 
 config HZ
 	int
-	default 333 if HZ_333
+	default 316 if HZ_316
 
 config SCHED_HRTICK
 	def_bool HIGH_RES_TIMERS
